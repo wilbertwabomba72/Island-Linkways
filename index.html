@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Island Linkways - Tropical Bridge Logic Puzzle</title>
+  <meta name="description" content="Island Linkways is a relaxing tropical bridge puzzle game for iPhone and iPad. Connect numbered islands, build one complete network, and solve increasingly thoughtful logic boards.">
+  <meta name="keywords" content="Island Linkways, bridge puzzle, Hashi, logic puzzle, island puzzle, offline puzzle, tropical game, iPhone puzzle, iPad puzzle">
+  <style>
+    :root{--sea:#078b99;--deep:#073c45;--sand:#fff0b8;--leaf:#217a42;--ink:#17262b;--muted:#5a6e73;--card:rgba(255,255,255,.88)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:#eafff9;line-height:1.6}
+    .hero{min-height:90vh;display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,410px);gap:42px;align-items:center;padding:54px max(24px,7vw);background:radial-gradient(circle at 72% 18%,#8af3d6 0,#25c6bd 30%,#0d91a8 57%,#075467 100%);overflow:hidden}
+    .tag{display:inline-block;background:rgba(255,255,255,.22);color:#fff;border:1px solid rgba(255,255,255,.4);padding:8px 13px;border-radius:999px;font-weight:800;margin-bottom:18px}
+    h1{font-size:clamp(44px,7vw,86px);line-height:.95;margin:0 0 20px;color:#fff;text-shadow:0 4px 18px rgba(0,0,0,.18)}
+    h2{font-size:clamp(30px,4vw,48px);line-height:1.08;margin:0 0 16px}
+    h3{margin:0 0 8px;font-size:21px}
+    .hero p{font-size:clamp(18px,2.3vw,24px);color:#eefefa;max-width:720px;margin:0 0 26px}
+    .actions{display:flex;gap:14px;flex-wrap:wrap}
+    .btn{display:inline-flex;text-decoration:none;color:var(--deep);background:#fff;padding:13px 18px;border-radius:14px;font-weight:800;box-shadow:0 10px 28px rgba(0,0,0,.18)}
+    .btn.alt{background:rgba(255,255,255,.18);color:#fff;border:1px solid rgba(255,255,255,.38)}
+    .phone{justify-self:center;width:min(100%,380px);border-radius:34px;box-shadow:0 24px 70px rgba(0,0,0,.34);overflow:hidden;background:#111;transform:rotate(2deg)}
+    img{display:block;width:100%;height:auto}
+    section{padding:70px max(22px,7vw)}
+    .intro{background:linear-gradient(180deg,#fffef7,#e9fbf7)}
+    .lead{font-size:20px;color:var(--muted);max-width:850px}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:28px}
+    .card{background:var(--card);border:1px solid rgba(6,59,70,.12);border-radius:18px;padding:22px;box-shadow:0 10px 32px rgba(6,59,70,.08)}
+    .gallery{background:#fff7d6}
+    .shots{display:grid;grid-template-columns:.72fr 1fr;gap:24px;align-items:center;margin-top:28px}
+    .shot{border-radius:24px;overflow:hidden;box-shadow:0 18px 42px rgba(0,0,0,.18);background:#fff}
+    .shot.phone-shot{max-width:390px;margin:auto}
+    .keywords{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+    .keywords span{background:#fff;border:1px solid rgba(6,59,70,.14);border-radius:999px;padding:8px 12px;color:var(--deep);font-weight:800}
+    footer{background:var(--deep);color:#d9f7f2;padding:32px max(22px,7vw)}
+    footer a{color:#9af7df}
+    @media(max-width:840px){.hero{grid-template-columns:1fr;min-height:auto;padding-top:42px}.phone{width:min(82vw,340px);transform:none}.grid,.shots{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <span class="tag">Tropical Logic Puzzle</span>
+      <h1>Island Linkways</h1>
+      <p>Connect numbered islands with clean bridges, complete one peaceful network, and solve bright logic puzzles wrapped in a tropical island world.</p>
+      <div class="actions">
+        <a class="btn" href="#features">Explore Features</a>
+        <a class="btn alt" href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="phone"><img alt="Island Linkways gameplay on iPhone" src="web_assets/screenshots/island-linkways-iphone-gameplay.jpg"></div>
+  </header>
+
+  <section class="intro" id="features">
+    <h2>A calm puzzle about islands, bridges, and logic</h2>
+    <p class="lead">Island Linkways turns classic bridge-building logic into a colorful beach puzzle. Each level asks you to read the numbers, plan the route, and link every island without crossing paths.</p>
+    <div class="grid">
+      <div class="card"><h3>Numbered islands</h3><p>Every island shows exactly how many bridges must touch it.</p></div>
+      <div class="card"><h3>Clean bridge rules</h3><p>Draw bridges only in straight horizontal or vertical lines. Bridges cannot cross or pass through another island.</p></div>
+      <div class="card"><h3>Growing challenge</h3><p>Progress through increasingly thoughtful layouts, from beginner boards to denser island networks.</p></div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2>Designed for iPhone and iPad</h2>
+    <p class="lead">Large readable islands, calm tropical artwork, undo and hint controls, and board layouts that scale across phone and tablet screens.</p>
+    <div class="shots">
+      <div class="shot phone-shot"><img alt="Island Linkways numbered island layout" src="web_assets/screenshots/island-linkways-iphone-puzzle.jpg"></div>
+      <div class="shot"><img alt="Island Linkways iPad gameplay" src="web_assets/screenshots/island-linkways-ipad-gameplay.jpg"></div>
+    </div>
+    <div class="keywords">
+      <span>Bridge Puzzle</span><span>Logic Game</span><span>Island Network</span><span>Offline Play</span><span>iPhone</span><span>iPad</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>How to play</h2>
+    <div class="grid">
+      <div class="card"><h3>1. Read the numbers</h3><p>Each number tells you the total bridge connections required for that island.</p></div>
+      <div class="card"><h3>2. Draw bridges</h3><p>Swipe from one island to another in the same row or column to add or remove a bridge.</p></div>
+      <div class="card"><h3>3. Complete one network</h3><p>Solve the level when every island has the right count and all islands are connected together.</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <strong>Island Linkways</strong><br>
+    A tropical bridge logic puzzle for iOS. Contact: <a href="mailto:508923216@qq.com">508923216@qq.com</a> · <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</body>
+</html>
